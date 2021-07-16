@@ -1,20 +1,4 @@
-// function fizzbuzz(arr) {
-//     let counter = 0
-//     while (counter < 20) {
-//     if (arr[counter] % 5 === 0 && arr[counter] % 3 === 0) {
-//       console.log("fizzbuz")
-//      } else if (arr[counter] % 3 === 0) {
-//        console.log("fizz")
-//       } else if (arr[counter] % 5 === 0) {
-//        console.log("Buzz")
-//       } else {
-//        console.log(arr[counter])
-//       }
-//     counter += 1
-//   }
-//   }
-//   let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
-//   fizzbuzz(arr)
+
 
 'use strict';
 

@@ -99,10 +99,10 @@ describe('Thermostat', () => {
             expect(thermostat.energyUsage()).toEqual('high-usage');
         });
     });
-
-
-   
-
-   
-
 });
+
+
+   
+
+   
+
