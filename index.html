@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 </head>
 <body>
-    <div id="all">
+    <div class="all">
     <p id="controller">
     <h3>Thermostat controller</h3>
     <button id="button" class="temp-down">-</button>
@@ -26,6 +26,16 @@
     <p id="power-status">powersaver on</p>
     </p>
 </div>
+
+<section class="all">
+    <h3>Enter any city you like!
+        Type here:</h3>
+      <form id="select-city">
+        <input id="current-city" type="text" placeholder="Enter a city"></input>
+        <input type="submit"></input>
+      </form>
+      <h3>Current temperature in your city: <span id="current-temperature"></span></h3>
+</section>
 
 
 

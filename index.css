@@ -20,7 +20,7 @@ body{
     padding: 10px;
 }
 
-#all {
+.all {
     display: block;
     max-width: 500px;
     margin: 0px auto;
