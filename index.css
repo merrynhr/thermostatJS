@@ -1,4 +1,8 @@
-
+body{
+    background-image: url('attachments/869.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 #button {
     padding: 5px;
@@ -8,9 +12,9 @@
     border-radius: 30%;
     box-shadow: 3px 3px 5px red;
 }
+
 #controller {
     padding-bottom: 10px;
-
 }
 #power {
     padding: 10px;
@@ -24,4 +28,13 @@
     padding: 10px;
     margin-top: 50px;
     text-align: center;
+    background-color: white;
+    opacity: 70%;
+}
+
+.low-usage{
+    color: green;
+}
+.high-usage{
+    color: red;
 }
